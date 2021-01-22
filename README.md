@@ -14,51 +14,26 @@ Requisitos de software e hardware necessários para executar este projeto.
 Abra o git bash, entre no diretório escolhido na sua máquina e faça o download do projeto com o comando abaixo.
 
 ```
-git clone https://github.com/rubens1287/e2e-trello-back-end.git
+git clone hhttps://github.com/kenedadriano/dino-game.git
 ```
 
-## PROPRIEDADES
+## INSTRUÇÕES DE JOGO
 
-Acesse o arquivo no diretório "e2e-trello-back-end\src\test\resources\trello.properties" e preencha as informações conforme abaixo;
-    
-```
-TRELLO_URL=https://api.trello.com
-TRELLO_KEY=<your-key-trello>
-TRELLO_TOKEN=<your-token-trello>
-``` 
+### Inicializar jogo
 
-Verifique a documentação da API do Trello para gerar suas credencias, acesse https://developers.trello.com/reference/#api-key-tokens
+Abrir o arquivo "index.html" com o navegador
+
+### Comandos de teclados 
+
+1. Aperte a "barra de espaço" para iniciar.
+2. e use "seta para cima" para pular
+
+## CONSIDERAÇÕES
+
+Aproveite este jogo para destrair a cabeça neste periodo dificil que estamos passando.
 
 
-## COMANDO PARA EXECUTAR OS TESTES
-
-Com o git bash acesse a pasta do projeto, onde esta localizado o arquivo pom.xml, execute o comando abaixo para rodar os testes automatizados.
-
-```
-mvn verify
-```
-
-## EVIDÊNCIAS
-
-Os arquivos com as evidências ficam localizados na pasta target do projeto, esta pasta só é criada depois da primeira execução.
-
-```
- Report HTML: [caminho da sua maquina]e2e-automation-practice-front-end\target\generated-report/index.html
- Json Cucumber: [caminho da sua maquina]e2e-automation-practice-front-end\target\json-cucumber-reports\cukejson.json
- Xml TestNG: [caminho da sua maquina]e2e-automation-practice-front-end\target\testng-cucumber-reports\cuketestng.xml
-```
-<div align="center">
-    <img id="header" src="./src/test/resources/images/evidencia.jpg" />
-</div>
-
-## LOG NO CONSOLE
-
-Veja os resultados do testes no console com status e também a localização dos arquivos mencionados acima.
-
-<div align="center">
-    <img id="header" src="./src/test/resources/images/resultado.jpg" />
-</div>
 
 ## AUTOR
 
-* **Rubens Lobo**
+* **Kenede Adriano**
